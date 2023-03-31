@@ -66,3 +66,6 @@ https://www.youtube.com/watch?v=bE8UllxfFC8
 
 
 ## Bonus Task: Open-ended 🌈
+
+
+------ It was initially intended to be a voting app. However, this result's app is simpler to build and answers the requirements in a way that is simple and clear.
