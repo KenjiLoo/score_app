@@ -14,7 +14,7 @@ Create a simple Python Django app that has the following features:
     
 Solution 💡
 1. Make a model called `Score` with attributes `user_id` (string) and `score` (float)
-2. In the 'views.py' file, create the `get_score` API with a GET method
+2. In the **'views.py'** file, create the `get_score` API with a GET method
     ```python
     @api_view(['GET'])
     def get_score(request):
@@ -25,11 +25,11 @@ Solution 💡
         serializer = ScoreSerializer(scores, many=True)
         return Response(serializer.data)
     ``` 
-3. In the 'urls.py' file, allow the API to be accesed by the url "url/api/get_score" 
+3. In the **'urls.py'** file, allow the API to be accesed by the url **"url/api/get_score"** 
     ```python
     path('api/get_score/', get_score, name='get_score'),
     ```
-4. In the 'test.py' file, a unit test is written to check if the API is working. The tests can be carried out using the command    `python manage.py test voting_app ` in the terminal, in the 'score_app' folder. 
+4. In the **'test.py'** file, a unit test is written to check if the API is working. The tests can be carried out using the command `python manage.py test voting_app ` in the terminal, in the **'score_app'** folder. 
     ```python
     def test_api_endpoint(self):
         url = reverse('get_score')
