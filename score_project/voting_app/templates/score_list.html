@@ -1,0 +1,30 @@
+{% load static %} 
+
+<head>
+  <link rel="stylesheet" href="{% static 'voting_app/style.css' %}">
+</head>
+
+{% block content %}
+<body>
+<h1>Your Results</h1>
+<a class="link-button" href="{% url 'get_score' %}">Get Scores (JSON)</a>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Score</th>
+      <th>Created At</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for score in scores %}
+    <tr>
+      <td>{{ score.user_id }}</td>
+      <td>{{ score.score }} </td>
+      <td>{{ score.created_at }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</body>
+{% endblock %}
