@@ -115,12 +115,6 @@ Solution 💡
 
 
 
-## Bonus Task: Deploy to Cloud ☁️
-
-https://www.youtube.com/watch?v=bE8UllxfFC8
-
-
-
 ## Bonus Task: Open-ended 🌈
 Bonus Task: Open-ended!
 If you have specific strengths in certain areas, feel free to demonstrate it. We are a
@@ -131,6 +125,14 @@ Solution 💡
 1. Beautified the front end to display the scores nicely
 2. Added a 'Get Scores (JSON)' button to view the scores in the JSON format using the `get_score` API
 3. Added an 'Admin' button to allow easy access to the admin page.
+
+
+
+### Here's a reflection of how I'd do things differently
+1. I'd create the app in a docker container. 
+2. I'd make the app with a virtual environment.
+3. Plan my steps thoroughly with diligent research before starting, as there were some roadblocks that I hit and   had to make a big turnaround to solve things.
+4. Overall I'm pretty satisfied with my first ever Django app, although it may not be up to par. This shows I've got alot more to learn and I'm looking forward.
 
 PS[^1]
 [^1]: It was initially intended to be a voting app. However, this result's app is simpler to build and answers the requirements in a way that is simple and clear.
