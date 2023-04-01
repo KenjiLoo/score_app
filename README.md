@@ -122,7 +122,15 @@ https://www.youtube.com/watch?v=bE8UllxfFC8
 
 
 ## Bonus Task: Open-ended 🌈
+Bonus Task: Open-ended!
+If you have specific strengths in certain areas, feel free to demonstrate it. We are a
+company that incorporates games, data, and web3. There of opportunities to expand
+upon your work!
 
+Solution 💡
+1. Beautified the front end to display the scores nicely
+2. Added a 'Get Scores (JSON)' button to view the scores in the JSON format using the `get_score` API
+3. Added an 'Admin' button to allow easy access to the admin page.
 
 PS[^1]
 [^1]: It was initially intended to be a voting app. However, this result's app is simpler to build and answers the requirements in a way that is simple and clear.
